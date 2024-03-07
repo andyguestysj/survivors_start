@@ -27,7 +27,7 @@ class Game:
 
       self.timer += 1
       if (self.timer == 20):
-        #self.timer = 0
+        self.timer = 0
         self.monster.append(Bat(self.screencoords()))
 
       for mob in self.monster:
